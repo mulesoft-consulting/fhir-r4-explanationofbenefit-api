@@ -64,7 +64,7 @@ pipeline {
       environment {
         PLATFORM_ENV = 'Development'
         SETTINGS_ENV = 'dev'
-        APP_NAME = 'dev-1hls-fhir-r4-explanationofbenefit-api-v1'
+        APP_NAME = 'dev-1hls-fhir-r4-eob-api-v1'
         PLATFORM_CLIENT_ID = credentials('SANDBOX_PLATFORM_CLIENT_ID')
         PLATFORM_CLIENT_SECRET = credentials('SANDBOX_PLATFORM_CLIENT_SECRET')
       }
@@ -82,7 +82,7 @@ pipeline {
       environment {
         PLATFORM_ENV = 'Production'
         SETTINGS_ENV = 'prod'
-        APP_NAME = '1hls-fhir-r4-explanationofbenefit-api-v1'
+        APP_NAME = '1hls-fhir-r4-eob-api-v1'
         PLATFORM_CLIENT_ID = credentials('PRODUCTION_PLATFORM_CLIENT_ID')
         PLATFORM_CLIENT_SECRET = credentials('PRODUCTION_PLATFORM_CLIENT_SECRET')
       }
